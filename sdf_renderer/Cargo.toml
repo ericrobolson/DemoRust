@@ -1,0 +1,12 @@
+[package]
+name = "sdf_renderer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ext_ggez = {package="ggez", version="0.7"}
+ext_glam = {package="glam", version="0.20"}
+ext_image = {package="image", version="0.24"}
+ext_rayon = {package="rayon", verson="1.5"}
