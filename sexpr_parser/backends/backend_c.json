@@ -1,0 +1,13 @@
+{
+    "main_file_rules": {
+        "ops": [
+            {
+                "type": "ModuleName"
+            },
+            {
+                "type": "Concat",
+                "value": ".c"
+            }
+        ]
+    }
+}

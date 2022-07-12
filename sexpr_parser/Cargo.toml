@@ -1,0 +1,18 @@
+[package]
+name = "sexpr_parser"
+version = "0.1.0"
+edition = "2021"
+
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+default = ["benchy"]
+benchmark = ["benchy/benchmark"]
+
+[dependencies]
+benchy = { git = "https://github.com/ericrobolson/benchy", branch="releases/v0.1.0", optional=true}
+chrono = "0.4"
+clap = {version="3.2", features=["derive"]}
+serde = {version="1.0", features=["derive"]}
+serde_json = "1.0"
