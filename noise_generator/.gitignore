@@ -1,0 +1,5 @@
+target/
+.*
+!.gitignore
+test_render.png
+test_rng.txt

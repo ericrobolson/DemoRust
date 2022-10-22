@@ -1,0 +1,4 @@
+- `rcontainers` provides a collection of containers.
+- `rimg` provides a simple library for in memory images.
+- `rmath` provides a simple library for math.
+- `rrng` provides a collection of utilities for random number generation.
