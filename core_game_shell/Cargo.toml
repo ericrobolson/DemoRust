@@ -1,0 +1,9 @@
+[package]
+name = "core_game"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+llua = { git = "https://github.com/ericrobolson/LucidLua", rev="55cb318" }
